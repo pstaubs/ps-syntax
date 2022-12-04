@@ -538,7 +538,7 @@
 		"name": "Namespaces",
 		"scope": "entity.name.namespace",
 		"settings": {
-		  "foreground": "#61afef"
+		  "foreground": "#ffffff"
 		}
 	  },
 	  {
@@ -595,7 +595,6 @@
 		"scope": [
 		  "entity.name.function",
 		  "meta.require",
-		  "support.function.any-method",
 		  "variable.function"
 		],
 		"settings": {
@@ -652,7 +651,8 @@
 		"name": "Keyword Control",
 		"scope": "keyword.control",
 		"settings": {
-		  "foreground": "#ffff00"
+			"foreground": "#61afef",
+			"fontStyle": "bold"
 		}
 	  },
 	  {
@@ -699,9 +699,9 @@
 	  },
 	  {
 		"name": "Support",
-		"scope": "support.function",
+		"scope": "support.function, support.function.any-method",
 		"settings": {
-		  "foreground": "#cccccc"
+		  "foreground": "#4a9e93"
 		}
 	  },
 	  {
@@ -764,7 +764,8 @@
 		"name": "Constants",
 		"scope": "constant",
 		"settings": {
-		  "foreground": "#1b5fdb"
+		  "foreground": "#1b5fdb",
+		  "fontStyle": "italic"
 		}
 	  },
 	  {
@@ -778,14 +779,15 @@
 		"name": "Tags",
 		"scope": "entity.name.tag",
 		"settings": {
-		  "foreground": "#cccccc"
+		  "foreground": "#5d25a8",
+		  "fontStyle": "bold"
 		}
 	  },
 	  {
 		"name": "Attributes",
 		"scope": "entity.other.attribute-name",
 		"settings": {
-		  "foreground": "#1b5fdb"
+		  "foreground": "#61afef",
 		}
 	  },
 	  {
@@ -1052,14 +1054,14 @@
 		"name": "[VSCODE-CUSTOM] JSON Property Name",
 		"scope": "support.type.property-name.json",
 		"settings": {
-		  "foreground": "#cccccc"
+		  "foreground": "#61afef"
 		}
 	  },
 	  {
 		"name": "[VSCODE-CUSTOM] JSON Punctuation for Property Name",
 		"scope": "support.type.property-name.json punctuation",
 		"settings": {
-		  "foreground": "#cccccc"
+		  "foreground": "#61afef"
 		}
 	  },
 	  {
@@ -1817,7 +1819,21 @@
 	  },
 	  {
 		"name": "js/ts italic",
-		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+		"scope": "entity.other.attribute-name.js, entity.other.attribute-name.ts, entity.other.attribute-name.jsx, entity.other.attribute-name.tsx",
+		"settings": {
+		  "fontStyle": "normal"
+		}
+	  },
+	  {
+		"name": "js/ts italic",
+		"scope": "variable.parameter",
+		"settings": {
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"name": "js/ts italic",
+		"scope": "variable.language.super",
 		"settings": {
 		  "fontStyle": "italic"
 		}
@@ -1833,7 +1849,7 @@
 		"name": "Python Keyword Control",
 		"scope": "keyword.control.import.python,keyword.control.flow.python",
 		"settings": {
-		  "fontStyle": "italic"
+		  "fontStyle": "bold"
 		}
 	  },
 	  {

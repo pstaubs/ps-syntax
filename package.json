@@ -1,6 +1,7 @@
 {
   "name": "ps-syntax",
   "displayName": "Ps-Syntax",
+  "publisher":"pstaub",
   "description": "",
   "version": "0.0.1",
   "repository": {
