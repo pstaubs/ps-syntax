@@ -3,6 +3,10 @@
   "displayName": "Ps-Syntax",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pstaubs/ps-syntax"
+  },  
   "engines": {
     "vscode": "^1.73.0"
   },
