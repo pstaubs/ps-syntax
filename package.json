@@ -1,0 +1,21 @@
+{
+  "name": "ps-syntax",
+  "displayName": "Ps-Syntax",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PS-Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PS-Syntax-color-theme.json"
+      }
+    ]
+  }
+}
