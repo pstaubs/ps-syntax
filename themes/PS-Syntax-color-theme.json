@@ -1227,9 +1227,24 @@
 	  },
 	  {
 		"name": "constant.language.symbol.ruby",
-		"scope": "constant.language.symbol.ruby",
+		"scope": "constant.language.symbol.ruby,constant.language.symbol.hashkey.ruby",
 		"settings": {
-		  "foreground": "#cccccc"
+		  "foreground": "#b5bd68"
+		}
+	  },
+	  {
+		"name": "variable.other.ruby",
+		"scope": "variable.other.ruby",
+		"settings": {
+		  "foreground": "#31a1ff"
+		}
+	  },
+	  {
+		"name": "variable.other.readwrite.instance.ruby",
+		"scope": "variable.other.readwrite.instance.ruby, variable.other.block.ruby",
+		"settings": {
+		  "foreground": "#31a1ff",
+		  "fontStyle": "italic"
 		}
 	  },
 	  {
@@ -1882,7 +1897,7 @@
 	  "list.inactiveSelectionForeground": "#cccccc",
 	  "list.hoverBackground": "#2a2d2e",
 	  "list.hoverForeground": "#cccccc",
-	  "list.activeSelectionBackground": "#31a1ff",
+	  "list.activeSelectionBackground": "#6cbdff",
 	  "list.activeSelectionForeground": "#ffffff",
 	  "tree.indentGuidesStroke": "#585858",
 	  "list.dropBackground": "#383b3d",
